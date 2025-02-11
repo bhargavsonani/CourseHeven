@@ -24,7 +24,7 @@ app.use(fileUpload({
 app.use(cors(
     
         {
-            origin : process.env.FRONTEND_URL ,
+            origin : 'https://course-heven-a9j9gjngx-bhargav-sonanis-projects.vercel.app' ,
             credentials:true,
             methods:['GET','POST','DELETE','PUT'],
             allowedHeaders:['Content-Type', 'Authorization'],
