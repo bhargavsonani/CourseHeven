@@ -24,7 +24,7 @@ app.use(fileUpload({
 app.use(cors(
     
         {
-            origin : 'https://course-heven-a9j9gjngx-bhargav-sonanis-projects.vercel.app' ,
+            origin : 'http://localhost:5173' ,
             credentials:true,
             methods:['GET','POST','DELETE','PUT'],
             allowedHeaders:['Content-Type', 'Authorization'],
